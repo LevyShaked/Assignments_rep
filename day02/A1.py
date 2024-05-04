@@ -1,12 +1,11 @@
-# this is a game where the player needs to guees a number (1-20) that i chose (12)
+# this is a game where the player needs to guees a number (1-20) that the computer choose
 # inputs: numbers
-# outputs: larger, lower, or equal and correct. if equal- returns the number of giesses and the time that take
+# outputs: larger, lower, or equal and correct. if equal- returns the number of guesses and the time that take
 
 import random 
 import time
 
 num = random.randrange(1, 21)
-num = 12
 n = 0
 t = 0
 print('\n')
