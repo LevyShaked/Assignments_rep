@@ -6,7 +6,7 @@ import random
 import time
 
 num = random.randrange(1, 21)
-n = 0
+counter = 0
 t = 0
 print("\n")
 print(
@@ -22,22 +22,22 @@ so it's importent to think fast, but luck and strategy are better! \n"
 )
 
 while True:
-    y_n = input(
-        "Press y if you want to start \n\
+    yes_or_no = input(
+        "Press y if you want to start, or n to exit. \n\
 (pay attention, the clock will start to run!) \n\
 \n"
     )
-    if y_n == "y":
+    if yes_or_no == "y":
         start = time.time()
         while True:
-            n = n + 1
+            counter = counter + 1
             guess = input("Youre guuess: ")
             if int(guess) == num:
                 t = time.time() - start
-                score = round(100 * (1 - ((n - 1) / 19)) * (1 / (1 + (0.004 * t))))
+                score = round(100 * (1 - ((counter - 1) / 19)) * (1 / (1 + (0.004 * t))))
                 print(
                     f"Congratulations (: , You are correct! \n\
-Number of trials: {n} \n\
+Number of trials: {counter} \n\
 Time: {t} second \n\
 Score: {score}"
                 )
@@ -53,5 +53,8 @@ try again"
 try again"
                 )
         break
-    else:
+    elif yes_or_no == 'n' :
+        print("Done")
+        break
+    else :
         continue
