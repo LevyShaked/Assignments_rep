@@ -5,11 +5,12 @@
 # 2. number of lines 
 # 3. number of words (seperated by a space)
 import sys
-from A5_BUS_LOG import cahracters_counter
+from a5_bus_log import cahracters_counter
 
 def main() :
     if len(sys.argv) != 2:
         exit(f"Usage: {sys.argv[0]} FILENAME")
+
     filename = sys.argv[1]
     counter, total_character, total_lines, total_words = cahracters_counter(filename)
     display_character(counter, total_character, total_lines, total_words)
