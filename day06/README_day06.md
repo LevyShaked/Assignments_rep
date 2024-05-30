@@ -4,7 +4,7 @@ The data is a real example from our lab, which investigates chaos.
 IN SIMPLE WORDS- There are certain conditions under which a particle create a shape that has a non integer dimension, differently from the common values we familiar with, such as 1, 2 or 3 dimenstional shapes.
 This special shape is the "trajectory" ploted in the graph.
 
-The Output- is the incomplete DIMENSION.
+The Output- is the inwhole DIMENSION.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Data & Calculations: 

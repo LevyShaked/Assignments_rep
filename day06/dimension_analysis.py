@@ -46,7 +46,7 @@ der_log_n_unique = (log_n_unique[1:] - log_n_unique[0:len(log_n_unique)-1])/(log
 
 reduced_dim = []
 for dim in der_log_n_unique :
-    if dim > 1 :
+    if dim > 0.95 :
         reduced_dim.append(dim)
     else :
         break
