@@ -93,7 +93,7 @@ def save_to_seraches_csv(results_number_asked, results_number_founded, formatted
 
 def command_line():
     if len(sys.argv) != 3:
-        exit(f"Usage: {sys.argv[0]} FileName Term Number")
+        exit(f"Usage: {sys.argv[0]} Term Number")
     termx = sys.argv[1]
     retmaxx = sys.argv[2]
     return(termx, retmaxx)
