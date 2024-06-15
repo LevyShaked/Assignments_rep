@@ -1,7 +1,8 @@
-This is a guessing game
-The interface is only through the buttons and pop-up window.
-Try to guess the number that the computer choose 
+This is a guessing game. 
+The interface is through the buttons and pop-up window,
+but pay attention to the notes in the command line. 
 
+Try to guess the number that the computer choose 
 When you succeed, you will get a score :
 
 Your score includes the time t and the number of trials counter. For instance: 
