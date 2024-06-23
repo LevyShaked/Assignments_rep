@@ -5,7 +5,6 @@
 import random
 import time
 
-
 def main():
     (counter, num) = num_generator()
     yes_or_else_loopa(counter, num)
@@ -147,5 +146,5 @@ def exit_fun():
     exit()
 
 
-text()
-main()
+# text()
+# main()

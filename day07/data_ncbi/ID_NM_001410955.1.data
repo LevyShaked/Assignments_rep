@@ -1,0 +1,138 @@
+LOCUS       NM_001410955             762 bp    mRNA    linear   PRI 16-JUN-2024
+DEFINITION  Homo sapiens glutamine amidotransferase class 1 domain containing 1
+            (GATD1), transcript variant 10, mRNA.
+ACCESSION   NM_001410955 XM_017017664
+VERSION     NM_001410955.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 762)
+  AUTHORS   Schuhmacher,J.S., Tom Dieck,S., Christoforidis,S., Landerer,C.,
+            Davila Gallesio,J., Hersemann,L., Seifert,S., Schafer,R., Giner,A.,
+            Toth-Petroczy,A., Kalaidzidis,Y., Bohnsack,K.E., Bohnsack,M.T.,
+            Schuman,E.M. and Zerial,M.
+  TITLE     The Rab5 effector FERRY links early endosomes with mRNA
+            localization
+  JOURNAL   Mol Cell 83 (11), 1839-1855 (2023)
+   PUBMED   37267905
+REFERENCE   2  (bases 1 to 762)
+  AUTHORS   Gonzales,P.A., Pisitkun,T., Hoffert,J.D., Tchapyjnikov,D.,
+            Star,R.A., Kleta,R., Wang,N.S. and Knepper,M.A.
+  TITLE     Large-scale proteomics and phosphoproteomics of urinary exosomes
+  JOURNAL   J Am Soc Nephrol 20 (2), 363-379 (2009)
+   PUBMED   19056867
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AP006621.1.
+            
+            On Aug 18, 2022 this sequence version replaced XM_017017664.2.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: SRR1163655.143824.1,
+                                           ERR4352444.101984.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2153427 [ECO:0000348]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-89                AP006621.1         72294-72382         c
+            90-166              AP006621.1         69961-70037         c
+            167-272             AP006621.1         68903-69008         c
+            273-380             AP006621.1         68417-68524         c
+            381-475             AP006621.1         67322-67416         c
+            476-610             AP006621.1         66228-66362         c
+            611-762             AP006621.1         62117-62268         c
+FEATURES             Location/Qualifiers
+     source          1..762
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11p15.5"
+     gene            1..762
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /note="glutamine amidotransferase class 1 domain
+                     containing 1"
+                     /db_xref="GeneID:347862"
+                     /db_xref="HGNC:HGNC:26616"
+     exon            1..89
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             26..586
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /note="isoform 8 precursor is encoded by transcript
+                     variant 10; parkinson disease 7 domain-containing protein
+                     1; Parkinson disease 7 domain containing 1; glutamine
+                     amidotransferase-like class 1 domain-containing protein 1;
+                     glutamine amidotransferase like class 1 domain containing
+                     1; ferry endosomal RAB5 effector complex subunit 5"
+                     /codon_start=1
+                     /product="glutamine amidotransferase-like class 1
+                     domain-containing protein 1 isoform 8 precursor"
+                     /protein_id="NP_001397884.1"
+                     /db_xref="CCDS:CCDS91400.1"
+                     /db_xref="GeneID:347862"
+                     /db_xref="HGNC:HGNC:26616"
+                     /translation="MASERLPNRPACLLVASGAAEGVSAQSFLHCFTMASTAFNLQVA
+                     TPGGKAMEFVDVTESNARWVQDFRLKAYASPAKLESIDGARYHALLIPSCPGALTDLA
+                     SSGSLARILQHFHSESKPICAVGHGVAALCCATNEDRSWVFDSYSLTGGLGLSQEPPP
+                     RSRSPLCVSSSGPPASPACRSWWRTS"
+     sig_peptide     26..139
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /note="/evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (Q8NB37.1)"
+     exon            90..166
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            167..272
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            273..380
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            381..475
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            476..610
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            611..762
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      737..742
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /note="hexamer: AATAAA"
+     polyA_site      762
+                     /gene="GATD1"
+                     /gene_synonym="FERRY5; Fy-5; PDDC1"
+                     /note="major polyA site"
+ORIGIN      
+        1 gcagacccag cgccgagccc gagccatggc gtccgagcgg ctccctaaca ggcccgcctg
+       61 tctgctcgtg gccagcggcg ccgccgaagg tgtgtcggcc cagtccttcc tccactgttt
+      121 cacgatggcc agcaccgcct tcaacctgca ggtggccacc cctgggggga aagccatgga
+      181 atttgtggat gtgactgaga gcaatgcacg ctgggtgcaa gacttccgcc tcaaggctta
+      241 cgccagcccc gccaagctcg agtccatcga tggtgcccgg taccatgccc tcctgatccc
+      301 cagctgtcct ggggccctga ccgacctggc cagcagtggc tccctggccc gtatcctgca
+      361 gcacttccac tctgagagca aacccatctg cgccgtcggc cacggtgtcg ccgccctgtg
+      421 ctgtgccacc aacgaggaca gatcctgggt gttcgacagc tacagcctga cagggggcct
+      481 gggcctgtct caggagcccc caccccgctc ccgcagccct ctgtgtgtga gctcgtcagg
+      541 gcccccggct tcgcccgcct gccgctcgtg gtggaggact tcgtgaagga ttcgggcgcc
+      601 tgcttcagtg ggcagggctt ggggcagcac caggctgggg cagaggagga aagcaagagg
+      661 acagacctcc agaagagcag cggagggcgg gtgaggattt ccccatatac cagtgtgtgt
+      721 tcatctaccc atgaggaata aaaccatgca gcagcatgca aa
+//
+
